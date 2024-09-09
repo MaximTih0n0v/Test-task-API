@@ -1,0 +1,28 @@
+Attaching to app_container
+[36mapp_container |[0m /usr/local/lib/python3.10/site-packages/pydantic/_internal/_config.py:341: UserWarning: Valid config keys have changed in V2:
+[36mapp_container |[0m * 'orm_mode' has been renamed to 'from_attributes'
+[36mapp_container |[0m   warnings.warn(message, UserWarning)
+[36mapp_container |[0m INFO:     Started server process [1]
+[36mapp_container |[0m INFO:     Waiting for application startup.
+[36mapp_container |[0m INFO:     Application startup complete.
+[36mapp_container |[0m INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[36mapp_container |[0m INFO:app:Создание объекта: тестовый
+[36mapp_container |[0m INFO:     172.26.0.1:54504 - "POST /items/ HTTP/1.1" 200 OK
+[36mapp_container |[0m INFO:app:Создание объекта: тестовый
+[36mapp_container |[0m INFO:     172.26.0.1:54598 - "POST /items/ HTTP/1.1" 200 OK
+[36mapp_container |[0m INFO:app:Создание объекта: phone
+[36mapp_container |[0m INFO:     172.26.0.1:53354 - "POST /items/ HTTP/1.1" 200 OK
+[36mapp_container |[0m INFO:app:Создание объекта: phone1
+[36mapp_container |[0m INFO:     172.26.0.1:38928 - "POST /items/ HTTP/1.1" 200 OK
+[36mapp_container |[0m INFO:app:Получение объекта с ID 14
+[36mapp_container |[0m INFO:     172.26.0.1:54464 - "GET /items/14 HTTP/1.1" 200 OK
+[36mapp_container |[0m INFO:app:Обновление объекта с ID 4
+[36mapp_container |[0m INFO:     172.26.0.1:37718 - "PUT /items/4 HTTP/1.1" 200 OK
+[36mapp_container |[0m INFO:app:Удаление объекта с ID 13
+[36mapp_container |[0m INFO:     172.26.0.1:44530 - "DELETE /items/13 HTTP/1.1" 200 OK
+[36mapp_container |[0m INFO:     Shutting down
+[36mapp_container |[0m INFO:     Waiting for application shutdown.
+[36mapp_container |[0m INFO:     Application shutdown complete.
+[36mapp_container |[0m INFO:     Finished server process [1]
+[36mapp_container exited with code 0
+[0m

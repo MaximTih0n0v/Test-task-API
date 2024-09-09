@@ -1,0 +1,28 @@
+Attaching to db_container
+[36mdb_container |[0m 
+[36mdb_container |[0m PostgreSQL Database directory appears to contain a database; Skipping initialization
+[36mdb_container |[0m 
+[36mdb_container |[0m 2024-09-09 16:15:19.807 UTC [1] LOG:  starting PostgreSQL 13.16 (Debian 13.16-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+[36mdb_container |[0m 2024-09-09 16:15:19.817 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[36mdb_container |[0m 2024-09-09 16:15:19.817 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+[36mdb_container |[0m 2024-09-09 16:15:19.897 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[36mdb_container |[0m 2024-09-09 16:15:19.974 UTC [27] LOG:  database system was shut down at 2024-09-09 16:14:54 UTC
+[36mdb_container |[0m 2024-09-09 16:15:20.153 UTC [1] LOG:  database system is ready to accept connections
+[36mdb_container |[0m 2024-09-09 16:23:18.618 UTC [50] FATAL:  password authentication failed for user "postgres"
+[36mdb_container |[0m 2024-09-09 16:23:18.618 UTC [50] DETAIL:  Role "postgres" does not exist.
+[36mdb_container |[0m 	Connection matched pg_hba.conf line 99: "host all all all md5"
+[36mdb_container |[0m 2024-09-09 16:23:39.728 UTC [52] FATAL:  password authentication failed for user "postgres"
+[36mdb_container |[0m 2024-09-09 16:23:39.728 UTC [52] DETAIL:  Role "postgres" does not exist.
+[36mdb_container |[0m 	Connection matched pg_hba.conf line 99: "host all all all md5"
+[36mdb_container |[0m 2024-09-09 16:23:45.592 UTC [53] FATAL:  password authentication failed for user "maxim"
+[36mdb_container |[0m 2024-09-09 16:23:45.592 UTC [53] DETAIL:  Role "maxim" does not exist.
+[36mdb_container |[0m 	Connection matched pg_hba.conf line 99: "host all all all md5"
+[36mdb_container |[0m 2024-09-09 16:28:02.595 UTC [1] LOG:  received fast shutdown request
+[36mdb_container |[0m 2024-09-09 16:28:02.650 UTC [1] LOG:  aborting any active transactions
+[36mdb_container |[0m 2024-09-09 16:28:02.650 UTC [57] FATAL:  terminating connection due to administrator command
+[36mdb_container |[0m 2024-09-09 16:28:02.650 UTC [56] FATAL:  terminating connection due to administrator command
+[36mdb_container |[0m 2024-09-09 16:28:02.652 UTC [1] LOG:  background worker "logical replication launcher" (PID 33) exited with exit code 1
+[36mdb_container |[0m 2024-09-09 16:28:02.654 UTC [28] LOG:  shutting down
+[36mdb_container |[0m 2024-09-09 16:28:02.876 UTC [1] LOG:  database system is shut down
+[36mdb_container exited with code 0
+[0m
